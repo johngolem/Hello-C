@@ -7,6 +7,7 @@ Can be inserted anywhere a white-space character is allowed.
 Comments dont nest Use comments to document your code
 
 char -1 byte-128 to 127(VALUE RANGE)
+float - 4 byte
 unsigned char1 byte0 to 255
  short2 bytes-32,768 to 32,767 
 unsigned short2 bytes0 to 65,535 
