@@ -1,0 +1,46 @@
+The do..while loop is similar to the while loop with one important difference. The body of do...while loop is executed at least once. Only then, the test expression is evaluated.
+
+The syntax of the do...while loop is:
+
+do {
+  // the body of the loop
+}
+while (testExpression);
+
+
+How do...while loop works?
+The body of do...while loop is executed once. Only then, the testExpression is evaluated.
+If testExpression is true, the body of the loop is executed again and testExpression is evaluated once more.
+This process goes on until testExpression becomes false.
+If testExpression is false, the loop ends.
+
+// Program to add numbers until the user enters zero
+
+#include <stdio.h>
+int main() {
+  double number, sum = 0;
+
+  // the body of the loop is executed at least once
+  do {
+    printf("Enter a number: ");
+    scanf("%lf", &number);
+    sum += number;
+  }
+  while(number != 0.0);
+
+  printf("Sum = %.2lf",sum);
+
+  return 0;
+}
+
+Enter a number: 1.5
+Enter a number: 2.4
+Enter a number: -3.4
+Enter a number: 4.2
+Enter a number: 0
+Sum = 4.70
+
+
+Here, we have used a do...while loop to prompt the user to enter a number. The loop works as long as the input number is not 0.
+
+The do...while loop executes at least once i.e. the first iteration runs without checking the condition. The condition is checked only after the first iteration has been executed.
