@@ -1,0 +1,60 @@
+ #include <stdio.h>
+ 
+int main () {
+
+   /* local variable definition */
+   int a = 100;
+ 
+   /* check the boolean condition */
+   if( a < 20 ) {
+      /* if condition is true then print the following */
+      printf("a is less than 20\n" );
+   } else {
+      /* if condition is false then print the following */
+      printf("a is not less than 20\n" );
+   }
+   
+   printf("value of a is : %d\n", a);
+ 
+   return 0;
+}
+
+if(boolean_expression 1) {
+   /* Executes when the boolean expression 1 is true */
+} else if( boolean_expression 2) {
+   /* Executes when the boolean expression 2 is true */
+} else if( boolean_expression 3) {
+   /* Executes when the boolean expression 3 is true */
+} else {
+   /* executes when the none of the above condition is true */
+}
+
+example
+
+
+#include <stdio.h>
+ 
+int main () {
+
+   /* local variable definition */
+   int a = 100;
+ 
+   /* check the boolean condition */
+   if( a == 10 ) {
+      /* if condition is true then print the following */
+      printf("Value of a is 10\n" );
+   } else if( a == 20 ) {
+      /* if else if condition is true */
+      printf("Value of a is 20\n" );
+   } else if( a == 30 ) {
+      /* if else if condition is true  */
+      printf("Value of a is 30\n" );
+   } else {
+      /* if none of the conditions is true */
+      printf("None of the values is matching\n" );
+   }
+   
+   printf("Exact value of a is: %d\n", a );
+ 
+   return 0;
+}
