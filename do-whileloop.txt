@@ -1,4 +1,5 @@
-The do..while loop is similar to the while loop with one important difference. The body of do...while loop is executed at least once. Only then, the test expression is evaluated.
+The do..while loop is similar to the while loop with one important difference. The body of do...while 
+loop is executed at least once. Only then, the test expression is evaluated.
 
 The syntax of the do...while loop is:
 
